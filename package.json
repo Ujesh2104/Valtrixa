@@ -1,0 +1,13 @@
+{
+  "name": "valtrixa-project",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix Backend\" \"npm run dev --prefix Frontend\""
+  },
+  "dependencies": {
+    "axios": "^1.19.0"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

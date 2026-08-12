@@ -122,7 +122,7 @@ const Section2 = () => {
                     </div>
                     <div className="mt-10 flex justify-end">
                         <button
-                            onClick={() => navigate("/dashboard")}
+                            onClick={() => navigate("/product-analysis")}
                             className="rounded-xl bg-gradient-to-r from-violet-600 to-fuchsia-600 px-10 py-3 font-semibold text-white transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-violet-600/30"
                         >
                             Analyze Product

@@ -5,14 +5,17 @@ import Footer from "../Footer/Footer";
 
 const Home = () => {
     return (
-        <div className="relative overflow-hidden bg-[#050816]">
+        <main className="relative min-h-screen overflow-hidden bg-[#050816]">
+
             <Background />
+
             <div className="relative z-10">
                 <Section1 />
                 <Section2 />
                 <Footer />
             </div>
-        </div>
+
+        </main>
     );
 };
 
